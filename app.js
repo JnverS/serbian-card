@@ -22,6 +22,7 @@ const defaultCards = sourceWords.map((card) => ({
   word: card.word,
   transcription: card.transcription,
   translation: card.translation,
+  example: card.example || "",
   learned: false,
 }));
 
@@ -30,6 +31,7 @@ const elements = {
   cardLabel: document.querySelector("#card-label"),
   word: document.querySelector("#word"),
   transcription: document.querySelector("#transcription"),
+  example: document.querySelector("#example"),
   translation: document.querySelector("#translation"),
   knowButton: document.querySelector("#know-button"),
   nextButton: document.querySelector("#next-button"),
@@ -45,6 +47,7 @@ const elements = {
   newWord: document.querySelector("#new-word"),
   newTranscription: document.querySelector("#new-transcription"),
   newTranslation: document.querySelector("#new-translation"),
+  newExample: document.querySelector("#new-example"),
 };
 
 let cards = loadCards();
@@ -72,10 +75,16 @@ function getCardKey(card) {
 }
 
 function mergeWithDefaultCards(savedCards) {
-  const savedByKey = new Map(savedCards.map((card) => [getCardKey(card), card]));
+  const defaultByKey = new Map(defaultCards.map((card) => [getCardKey(card), card]));
+  const enrichedSavedCards = savedCards.map((card) => ({
+    ...defaultByKey.get(getCardKey(card)),
+    ...card,
+    example: card.example || defaultByKey.get(getCardKey(card))?.example || "",
+  }));
+  const savedByKey = new Map(enrichedSavedCards.map((card) => [getCardKey(card), card]));
   const missingDefaultCards = defaultCards.filter((card) => !savedByKey.has(getCardKey(card)));
 
-  return [...savedCards, ...missingDefaultCards];
+  return [...enrichedSavedCards, ...missingDefaultCards];
 }
 
 function saveCards() {
@@ -125,6 +134,7 @@ function render() {
     elements.cardLabel.textContent = "Все слова выучены";
     elements.word.textContent = "Готово";
     elements.transcription.textContent = "Добавь новое слово, чтобы продолжить";
+    elements.example.hidden = true;
     elements.translation.hidden = true;
     elements.knowButton.disabled = true;
     elements.nextButton.disabled = true;
@@ -134,6 +144,8 @@ function render() {
   elements.cardLabel.textContent = isTranslationVisible ? "Перевод" : "Нажми, чтобы увидеть перевод";
   elements.word.textContent = currentCard.word;
   elements.transcription.textContent = currentCard.transcription;
+  elements.example.textContent = currentCard.example ? `Primer: ${currentCard.example}` : "";
+  elements.example.hidden = !currentCard.example;
   elements.translation.textContent = currentCard.translation;
   elements.translation.hidden = !isTranslationVisible;
   elements.knowButton.disabled = false;
@@ -215,6 +227,7 @@ function addCard(event) {
   const word = elements.newWord.value.trim();
   const transcription = elements.newTranscription.value.trim();
   const translation = elements.newTranslation.value.trim();
+  const example = elements.newExample.value.trim();
 
   if (!word || !transcription || !translation) {
     return;
@@ -225,6 +238,7 @@ function addCard(event) {
     word,
     transcription,
     translation,
+    example,
     learned: false,
   };
 
