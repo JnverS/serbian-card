@@ -110,6 +110,7 @@ h2 {
 }
 
 .card {
+  position: relative;
   width: 100%;
   min-height: 360px;
   display: grid;
@@ -126,10 +127,37 @@ h2 {
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.7);
   cursor: pointer;
   text-align: center;
+  user-select: none;
   transition:
     transform 160ms ease,
     box-shadow 160ms ease,
     border-color 160ms ease;
+}
+
+.example-toggle {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 38px;
+  height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fffdf8;
+  color: var(--accent);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.example-toggle:hover {
+  border-color: var(--accent);
+  background: rgba(36, 107, 95, 0.08);
+}
+
+.example-toggle[hidden] {
+  display: none;
 }
 
 .card:hover {
@@ -151,6 +179,12 @@ h2 {
   line-height: 0.95;
 }
 
+.word.single-word {
+  white-space: nowrap;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
 .transcription {
   color: var(--accent);
   font-size: clamp(1.25rem, 3vw, 2rem);
@@ -165,8 +199,10 @@ h2 {
   font-weight: 800;
 }
 
-.example {
+.example-panel {
   max-width: min(640px, 100%);
+  display: grid;
+  gap: 6px;
   overflow-wrap: anywhere;
   padding: 12px 16px;
   border: 1px solid rgba(36, 107, 95, 0.18);
@@ -176,6 +212,31 @@ h2 {
   font-size: clamp(1rem, 2vw, 1.25rem);
   font-weight: 700;
   line-height: 1.35;
+}
+
+.example-panel[hidden] {
+  display: none;
+}
+
+.example-label {
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.example-text {
+  color: var(--ink);
+}
+
+.example-transcription {
+  color: var(--accent);
+  font-size: 0.95rem;
+}
+
+.example-translation {
+  color: var(--red);
+  font-size: 1rem;
 }
 
 .actions {

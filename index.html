@@ -20,13 +20,21 @@
           </div>
         </header>
 
-        <button class="card" id="flashcard" type="button" aria-label="Показать перевод">
+        <div class="card" id="flashcard" role="button" tabindex="0" aria-label="Показать перевод">
+          <button class="example-toggle" id="example-toggle" type="button" aria-label="Показать пример" aria-expanded="false">
+            !
+          </button>
           <span class="card-label" id="card-label">Нажми на карточку</span>
           <span class="word" id="word">...</span>
           <span class="transcription" id="transcription">...</span>
-          <span class="example" id="example" hidden>...</span>
           <span class="translation" id="translation" hidden>...</span>
-        </button>
+          <div class="example-panel" id="example-panel" hidden>
+            <span class="example-label">Primer</span>
+            <span class="example-text" id="example">...</span>
+            <span class="example-transcription" id="example-transcription">...</span>
+            <span class="example-translation" id="example-translation">...</span>
+          </div>
+        </div>
 
         <div class="actions">
           <button class="primary" id="know-button" type="button">Я знаю это слово</button>
@@ -55,6 +63,10 @@
           <label>
             Пример на сербском
             <input id="new-example" name="example" type="text" placeholder="Dobar dan, kako ste?" />
+          </label>
+          <label>
+            Перевод примера
+            <input id="new-example-translation" name="exampleTranslation" type="text" placeholder="Добрый день, как вы?" />
           </label>
           <button class="primary full" type="submit">Добавить в пул</button>
         </form>
