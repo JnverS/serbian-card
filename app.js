@@ -389,7 +389,20 @@ function markCurrentAsLearned() {
   pickNextCard();
 }
 
-elements.card.addEventListener("click", () => {
+function toggleExample() {
+  if (!currentCard?.example) {
+    return;
+  }
+
+  isExampleVisible = !isExampleVisible;
+  render();
+}
+
+elements.card.addEventListener("click", (event) => {
+  if (event.target.closest("#example-toggle, #example-panel")) {
+    return;
+  }
+
   if (!currentCard) {
     return;
   }
@@ -409,14 +422,9 @@ elements.card.addEventListener("keydown", (event) => {
 });
 
 elements.exampleToggle.addEventListener("click", (event) => {
+  event.preventDefault();
   event.stopPropagation();
-
-  if (!currentCard?.example) {
-    return;
-  }
-
-  isExampleVisible = !isExampleVisible;
-  render();
+  toggleExample();
 });
 
 elements.nextButton.addEventListener("click", pickNextCard);
