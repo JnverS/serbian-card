@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сербские карточки</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="study">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Srpski</p>
+            <h1>Сербские слова</h1>
+          </div>
+          <div class="stats" aria-live="polite">
+            <span><strong id="active-count">0</strong> в пуле</span>
+            <span><strong id="learned-count">0</strong> выучено</span>
+          </div>
+        </header>
+
+        <button class="card" id="flashcard" type="button" aria-label="Показать перевод">
+          <span class="card-label" id="card-label">Нажми на карточку</span>
+          <span class="word" id="word">...</span>
+          <span class="transcription" id="transcription">...</span>
+          <span class="translation" id="translation" hidden>...</span>
+        </button>
+
+        <div class="actions">
+          <button class="primary" id="know-button" type="button">Я знаю это слово</button>
+          <button class="secondary" id="next-button" type="button">Следующая карточка</button>
+        </div>
+        <button class="secondary full list-toggle" id="toggle-lists-button" type="button" aria-expanded="false">
+          Показать списки слов
+        </button>
+      </section>
+
+      <aside class="panel" aria-label="Добавление слова">
+        <h2>Добавить слово</h2>
+        <form id="word-form">
+          <label>
+            Сербское слово
+            <input id="new-word" name="word" type="text" placeholder="dobar dan" required />
+          </label>
+          <label>
+            Транскрипция
+            <input id="new-transcription" name="transcription" type="text" placeholder="[добар дан]" required />
+          </label>
+          <label>
+            Перевод
+            <input id="new-translation" name="translation" type="text" placeholder="добрый день" required />
+          </label>
+          <button class="primary full" type="submit">Добавить в пул</button>
+        </form>
+        <p class="hint">Новые слова сохраняются в этом браузере. Выученные карточки больше не появляются.</p>
+      </aside>
+
+      <section class="word-lists" id="word-lists" aria-label="Списки слов" hidden>
+        <div class="list-card">
+          <div class="list-heading">
+            <h2>Все слова</h2>
+            <span id="all-list-count">0</span>
+          </div>
+          <ul class="word-list" id="all-words-list"></ul>
+        </div>
+
+        <div class="list-card">
+          <div class="list-heading">
+            <h2>Выученные</h2>
+            <span id="learned-list-count">0</span>
+          </div>
+          <ul class="word-list" id="learned-words-list"></ul>
+        </div>
+      </section>
+    </main>
+
+    <script src="words-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
