@@ -131,9 +131,9 @@ window.SERBIAN_WORDS = [
     "word": "doručkovati",
     "transcription": "[доручковати]",
     "translation": "завтракать",
-    "example": "Ja svako jutro doručkujem kašu.",
-    "exampleTranscription": "[Ја свако јутро доручкујем кашу.]",
-    "exampleTranslation": "Я каждое утро завтракаю кашей."
+    "example": "Volim da doručkujem rano.",
+    "exampleTranscription": "[Волим да доручкујем рано.]",
+    "exampleTranslation": "Я люблю завтракать рано."
   },
   {
     "word": "razumeti",
@@ -210,7 +210,7 @@ window.SERBIAN_WORDS = [
   {
     "word": "pričati",
     "transcription": "[причати]",
-    "translation": "рассказывать, говорить",
+    "translation": "говорить, рассказывать",
     "example": "Pričam sa prijateljem.",
     "exampleTranscription": "[Причам са пријатељем.]",
     "exampleTranslation": "Я разговариваю с другом."
@@ -250,7 +250,7 @@ window.SERBIAN_WORDS = [
   {
     "word": "svirati",
     "transcription": "[свирати]",
-    "translation": "играть на инструменте",
+    "translation": "играть на музыкальном инструменте",
     "example": "Sviram gitaru.",
     "exampleTranscription": "[Свирам гитару.]",
     "exampleTranslation": "Я играю на гитаре."
@@ -610,7 +610,7 @@ window.SERBIAN_WORDS = [
   {
     "word": "da li",
     "transcription": "[да ли]",
-    "translation": "ли, частица вопроса",
+    "translation": "ли, вопросительная частица",
     "example": "",
     "exampleTranscription": "",
     "exampleTranslation": ""
@@ -1130,7 +1130,7 @@ window.SERBIAN_WORDS = [
   {
     "word": "baš",
     "transcription": "[баш]",
-    "translation": "очень, прямо",
+    "translation": "очень, прямо, именно",
     "example": "Baš mi je drago.",
     "exampleTranscription": "[Баш ми је драго.]",
     "exampleTranslation": "Мне правда очень приятно."
@@ -1186,7 +1186,7 @@ window.SERBIAN_WORDS = [
   {
     "word": "Molim?",
     "transcription": "[Молим?]",
-    "translation": "Что? / Простите?",
+    "translation": "Прошу прощения? / Что?",
     "example": "",
     "exampleTranscription": "",
     "exampleTranslation": ""
@@ -2184,14 +2184,6 @@ window.SERBIAN_WORDS = [
     "exampleTranslation": ""
   },
   {
-    "word": "plesati",
-    "transcription": "[плесати]",
-    "translation": "плясать, танцевать",
-    "example": "Ja volim da plešem.",
-    "exampleTranscription": "[Ја волим да плешем.]",
-    "exampleTranslation": "Я люблю танцевать."
-  },
-  {
     "word": "Osnovni glagoli",
     "transcription": "[Основни глаголи]",
     "translation": "основные глаголы",
@@ -2214,22 +2206,6 @@ window.SERBIAN_WORDS = [
     "example": "Želim da učim srpski.",
     "exampleTranscription": "[Желим да учим српски.]",
     "exampleTranslation": "Я хочу учить сербский."
-  },
-  {
-    "word": "pričati",
-    "transcription": "[причати]",
-    "translation": "говорить, рассказывать",
-    "example": "Pričam sa prijateljem.",
-    "exampleTranscription": "[Причам са пријатељем.]",
-    "exampleTranslation": "Я разговариваю с другом."
-  },
-  {
-    "word": "svirati",
-    "transcription": "[свирати]",
-    "translation": "играть на музыкальном инструменте",
-    "example": "Sviram gitaru.",
-    "exampleTranscription": "[Свирам гитару.]",
-    "exampleTranslation": "Я играю на гитаре."
   },
   {
     "word": "ličiti",
@@ -2342,14 +2318,6 @@ window.SERBIAN_WORDS = [
     "example": "Gde je prodavnica?",
     "exampleTranscription": "[Где је продавница?]",
     "exampleTranslation": "Где магазин?"
-  },
-  {
-    "word": "da li",
-    "transcription": "[да ли]",
-    "translation": "ли, вопросительная частица",
-    "example": "",
-    "exampleTranscription": "",
-    "exampleTranslation": ""
   },
   {
     "word": "Grad i kuća",
@@ -2526,14 +2494,6 @@ window.SERBIAN_WORDS = [
     "example": "Lepo govoriš.",
     "exampleTranscription": "[Лепо говориш.]",
     "exampleTranslation": "Ты красиво говоришь."
-  },
-  {
-    "word": "baš",
-    "transcription": "[баш]",
-    "translation": "очень, прямо, именно",
-    "example": "Baš mi je drago.",
-    "exampleTranscription": "[Баш ми је драго.]",
-    "exampleTranslation": "Мне правда очень приятно."
   },
   {
     "word": "verovatno",
@@ -2754,7 +2714,7 @@ window.SERBIAN_WORDS = [
   {
     "word": "Dešava se.",
     "transcription": "[Дешава се.]",
-    "translation": "Всякое бывает.",
+    "translation": "Всякое бывает. / Такое случается.",
     "example": "",
     "exampleTranscription": "",
     "exampleTranslation": ""
@@ -2787,14 +2747,6 @@ window.SERBIAN_WORDS = [
     "word": "Veoma mi je žao.",
     "transcription": "[Веома ми је жао.]",
     "translation": "Мне очень жаль.",
-    "example": "",
-    "exampleTranscription": "",
-    "exampleTranslation": ""
-  },
-  {
-    "word": "Molim?",
-    "transcription": "[Молим?]",
-    "translation": "Прошу прощения? / Что?",
     "example": "",
     "exampleTranscription": "",
     "exampleTranslation": ""
@@ -2890,7 +2842,7 @@ window.SERBIAN_WORDS = [
   {
     "word": "Možda.",
     "transcription": "[Можда.]",
-    "translation": "Возможно.",
+    "translation": "Возможно. / Может быть.",
     "example": "",
     "exampleTranscription": "",
     "exampleTranslation": ""
@@ -3186,7 +3138,7 @@ window.SERBIAN_WORDS = [
   {
     "word": "Nema veze.",
     "transcription": "[Нема везе.]",
-    "translation": "Ничего. / Не важно.",
+    "translation": "Ничего. / Неважно.",
     "example": "",
     "exampleTranscription": "",
     "exampleTranslation": ""
@@ -3224,14 +3176,6 @@ window.SERBIAN_WORDS = [
     "exampleTranslation": ""
   },
   {
-    "word": "Nema veze.",
-    "transcription": "[Нема везе.]",
-    "translation": "Неважно.",
-    "example": "",
-    "exampleTranscription": "",
-    "exampleTranslation": ""
-  },
-  {
     "word": "Nije važno.",
     "transcription": "[Није важно.]",
     "translation": "Неважно.",
@@ -3259,14 +3203,6 @@ window.SERBIAN_WORDS = [
     "word": "Ne brini.",
     "transcription": "[Не брини.]",
     "translation": "Не волнуйся.",
-    "example": "",
-    "exampleTranscription": "",
-    "exampleTranslation": ""
-  },
-  {
-    "word": "Dešava se.",
-    "transcription": "[Дешава се.]",
-    "translation": "Такое случается.",
     "example": "",
     "exampleTranscription": "",
     "exampleTranslation": ""
@@ -3514,7 +3450,7 @@ window.SERBIAN_WORDS = [
   {
     "word": "Makar.",
     "transcription": "[Макар.]",
-    "translation": "Хоть, хотя бы.",
+    "translation": "Хотя бы; хоть",
     "example": "",
     "exampleTranscription": "",
     "exampleTranslation": ""
@@ -3624,14 +3560,6 @@ window.SERBIAN_WORDS = [
     "exampleTranslation": ""
   },
   {
-    "word": "Možda.",
-    "transcription": "[Можда.]",
-    "translation": "Может быть.",
-    "example": "",
-    "exampleTranscription": "",
-    "exampleTranslation": ""
-  },
-  {
     "word": "Zar?",
     "transcription": "[Зар?]",
     "translation": "Разве? Неужели?",
@@ -3736,19 +3664,2027 @@ window.SERBIAN_WORDS = [
     "exampleTranslation": ""
   },
   {
-    "word": "Makar.",
-    "transcription": "[Макар.]",
-    "translation": "Хотя бы.",
-    "example": "",
-    "exampleTranscription": "",
-    "exampleTranslation": ""
-  },
-  {
     "word": "Bilo.",
     "transcription": "[Било.]",
     "translation": "Либо / нибудь, в составе выражений.",
     "example": "",
     "exampleTranscription": "",
     "exampleTranslation": ""
+  },
+  {
+    "word": "Ujak",
+    "transcription": "[ујак]",
+    "translation": "дядя, брат мамы",
+    "example": "Ujak dolazi sutra.",
+    "exampleTranscription": "[Ујак долази сутра.]",
+    "exampleTranslation": "Дядя придёт завтра."
+  },
+  {
+    "word": "Ujna",
+    "transcription": "[ујна]",
+    "translation": "жена брата мамы",
+    "example": "Ujna je kod kuće.",
+    "exampleTranscription": "[Ујна је код куће.]",
+    "exampleTranslation": "Тётя дома."
+  },
+  {
+    "word": "Punjač",
+    "transcription": "[пуњач]",
+    "translation": "зарядка / зарядное устройство",
+    "example": "Punjač je u torbi.",
+    "exampleTranscription": "[Пуњач је у торби.]",
+    "exampleTranslation": "Зарядка в сумке."
+  },
+  {
+    "word": "Pokvaren",
+    "transcription": "[покварен]",
+    "translation": "сломанный / неисправный",
+    "example": "Telefon je pokvaren.",
+    "exampleTranscription": "[Телефон је покварен.]",
+    "exampleTranslation": "Телефон сломан."
+  },
+  {
+    "word": "Slomljene",
+    "transcription": "[сломљене]",
+    "translation": "сломанные",
+    "example": "Naočare su slomljene.",
+    "exampleTranscription": "[Наочаре су сломљене.]",
+    "exampleTranslation": "Очки сломаны."
+  },
+  {
+    "word": "Desno",
+    "transcription": "[десно]",
+    "translation": "справа / направо",
+    "example": "Skrenite desno.",
+    "exampleTranscription": "[Скрените десно.]",
+    "exampleTranslation": "Поверните направо."
+  },
+  {
+    "word": "Levo",
+    "transcription": "[лево]",
+    "translation": "слева / налево",
+    "example": "Skrenite levo.",
+    "exampleTranscription": "[Скрените лево.]",
+    "exampleTranslation": "Поверните налево."
+  },
+  {
+    "word": "Pravo",
+    "transcription": "[право]",
+    "translation": "прямо",
+    "example": "Idite pravo.",
+    "exampleTranscription": "[Идите право.]",
+    "exampleTranslation": "Идите прямо."
+  },
+  {
+    "word": "Nazad",
+    "transcription": "[назад]",
+    "translation": "назад",
+    "example": "Idem nazad.",
+    "exampleTranscription": "[Идем назад.]",
+    "exampleTranslation": "Я иду назад."
+  },
+  {
+    "word": "Vruće",
+    "transcription": "[вруће]",
+    "translation": "жарко",
+    "example": "Danas je vruće.",
+    "exampleTranscription": "[Данас је вруће.]",
+    "exampleTranslation": "Сегодня жарко."
+  },
+  {
+    "word": "Klima",
+    "transcription": "[клима]",
+    "translation": "кондиционер",
+    "example": "Klima radi.",
+    "exampleTranscription": "[Клима ради.]",
+    "exampleTranslation": "Кондиционер работает."
+  },
+  {
+    "word": "Upalite",
+    "transcription": "[упалите]",
+    "translation": "включите",
+    "example": "Upalite svetlo.",
+    "exampleTranscription": "[Упалите светло.]",
+    "exampleTranslation": "Включите свет."
+  },
+  {
+    "word": "Ugasite",
+    "transcription": "[угасите]",
+    "translation": "выключите",
+    "example": "Ugasite svetlo.",
+    "exampleTranscription": "[Угасите светло.]",
+    "exampleTranslation": "Выключите свет."
+  },
+  {
+    "word": "Stvarno?",
+    "transcription": "[Стварно?]",
+    "translation": "Серьезно?/Действительно?/Неужели?",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Ne brini",
+    "transcription": "[Не брини]",
+    "translation": "Не переживай",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Hrana",
+    "transcription": "[Храна]",
+    "translation": "Еда",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Društvene mreže",
+    "transcription": "[Друштвене мреже]",
+    "translation": "Социальные сети",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Uopšte",
+    "transcription": "[Уопште]",
+    "translation": "Вообще",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Šteta",
+    "transcription": "[Штета]",
+    "translation": "Жаль",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Korištiti",
+    "transcription": "[Кориштити]",
+    "translation": "Использовать",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Za sad",
+    "transcription": "[За сад]",
+    "translation": "Пока что",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Jak",
+    "transcription": "[Јак]",
+    "translation": "Сильный",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Iz nad",
+    "transcription": "[Из над]",
+    "translation": "Над нами",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Susedna zgrada",
+    "transcription": "[Суседна зграда]",
+    "translation": "Соседний дом",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Crtani",
+    "transcription": "[Цртани]",
+    "translation": "Мультик",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Emisija",
+    "transcription": "[Емисија]",
+    "translation": "Передача",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Ponekad",
+    "transcription": "[Понекад]",
+    "translation": "Иногда",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Američka",
+    "transcription": "[Америчка]",
+    "translation": "Американский",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Bajka",
+    "transcription": "[Бајка]",
+    "translation": "Сказка",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Pripovetka",
+    "transcription": "[Приповетка]",
+    "translation": "Рассказ",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Vesti",
+    "transcription": "[Вести]",
+    "translation": "Новости",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Soba",
+    "transcription": "[Соба]",
+    "translation": "Комната",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Uloga",
+    "transcription": "[Улога]",
+    "translation": "Роль",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Iznenatelje",
+    "transcription": "[Изненатеље]",
+    "translation": "Сюрприз",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Robot usisivač",
+    "transcription": "[Робот усисивач]",
+    "translation": "Робот-пылесос",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Pištaljka",
+    "transcription": "[Пиштаљка]",
+    "translation": "Свисток",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Iči na živci",
+    "transcription": "[Ичи на живци]",
+    "translation": "Играть на нервах",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Košarka",
+    "transcription": "[Кошарка]",
+    "translation": "Баскетбол",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Dugo",
+    "transcription": "[Дуго]",
+    "translation": "Долго",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Obali",
+    "transcription": "[Обали]",
+    "translation": "Набережная",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Za vikend",
+    "transcription": "[За викенд]",
+    "translation": "В выходные",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Pored groblja",
+    "transcription": "[Поред гробља]",
+    "translation": "Возле кладбища",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Na trgu",
+    "transcription": "[На тргу]",
+    "translation": "На площади",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Avion",
+    "transcription": "[Авион]",
+    "translation": "Самолет",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Voz",
+    "transcription": "[Воз]",
+    "translation": "Поезд",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Stalno",
+    "transcription": "[Стално]",
+    "translation": "Постоянно",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Morati",
+    "transcription": "[Морати]",
+    "translation": "быть должным",
+    "example": "Da li ja moram da čekam",
+    "exampleTranscription": "[Да ли ја морам да чекам]",
+    "exampleTranslation": "Должна ли я ждать?"
+  },
+  {
+    "word": "Obožavam",
+    "transcription": "[Обожавам]",
+    "translation": "обожаю",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Spremačica",
+    "transcription": "[Спремачица]",
+    "translation": "горничная",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Peglati",
+    "transcription": "[Пеглати]",
+    "translation": "гладить, утюжить",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Kniževnosti",
+    "transcription": "[Книжевности]",
+    "translation": "литература",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Juče",
+    "transcription": "[јуче]",
+    "translation": "вчера",
+    "example": "Juče sam bio kod kuće.",
+    "exampleTranscription": "[Јуче сам био код куће.]",
+    "exampleTranslation": "Вчера я был дома."
+  },
+  {
+    "word": "Podne",
+    "transcription": "[Подне]",
+    "translation": "полдень",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Pre podne",
+    "transcription": "[Пре подне]",
+    "translation": "до обеда",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Poste podne",
+    "transcription": "[Посте подне]",
+    "translation": "после обеда",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "noču",
+    "transcription": "[ночу]",
+    "translation": "ночью",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "ujutru",
+    "transcription": "[ујутру]",
+    "translation": "утром",
+    "example": "Ujutru pijem kafu.",
+    "exampleTranscription": "[Ујутру пијем кафу.]",
+    "exampleTranslation": "Утром я пью кофе."
+  },
+  {
+    "word": "uveče",
+    "transcription": "[увече]",
+    "translation": "вечером",
+    "example": "Uveče čitam knjigu.",
+    "exampleTranscription": "[Увече читам књигу.]",
+    "exampleTranslation": "Вечером я читаю книгу."
+  },
+  {
+    "word": "ceo",
+    "transcription": "[цео]",
+    "translation": "целый",
+    "example": "Ceo dan radim.",
+    "exampleTranscription": "[Цео дан радим.]",
+    "exampleTranslation": "Я работаю целый день."
+  },
+  {
+    "word": "svaki",
+    "transcription": "[сваки]",
+    "translation": "каждый",
+    "example": "Svaki dan učim.",
+    "exampleTranscription": "[Сваки дан учим.]",
+    "exampleTranslation": "Каждый день я учусь."
+  },
+  {
+    "word": "brinem",
+    "transcription": "[бринем]",
+    "translation": "я забочусь / беспокоюсь",
+    "example": "Brinem o porodici.",
+    "exampleTranscription": "[Бринем о породици.]",
+    "exampleTranslation": "Я забочусь о семье."
+  },
+  {
+    "word": "vatromet",
+    "transcription": "[ватромет]",
+    "translation": "фейерверк",
+    "example": "Gledamo vatromet.",
+    "exampleTranscription": "[Гледамо ватромет.]",
+    "exampleTranslation": "Мы смотрим фейерверк."
+  },
+  {
+    "word": "neko",
+    "transcription": "[неко]",
+    "translation": "кто-то",
+    "example": "Neko je došao.",
+    "exampleTranscription": "[Неко је дошао.]",
+    "exampleTranslation": "Кто-то пришёл."
+  },
+  {
+    "word": "početak",
+    "transcription": "[почетак]",
+    "translation": "начало",
+    "example": "Početak je važan.",
+    "exampleTranscription": "[Почетак је важан.]",
+    "exampleTranslation": "Начало важно."
+  },
+  {
+    "word": "počinje",
+    "transcription": "[почиње]",
+    "translation": "начинается",
+    "example": "Film počinje sada.",
+    "exampleTranscription": "[Филм почиње сада.]",
+    "exampleTranslation": "Фильм начинается сейчас."
+  },
+  {
+    "word": "stigao sam",
+    "transcription": "[стигао сам]",
+    "translation": "я успел / я приехал",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "se promenili",
+    "transcription": "[се променили]",
+    "translation": "изменились",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "priča",
+    "transcription": "[прича]",
+    "translation": "история",
+    "example": "Priča je zanimljiva.",
+    "exampleTranscription": "[Прича је занимљива.]",
+    "exampleTranslation": "История интересная."
+  },
+  {
+    "word": "žuriti",
+    "transcription": "[журити]",
+    "translation": "спешить",
+    "example": "Ne volim da žurim.",
+    "exampleTranscription": "[Не волим да журим.]",
+    "exampleTranslation": "Я не люблю спешить."
+  },
+  {
+    "word": "žurim",
+    "transcription": "[журим]",
+    "translation": "я спешу",
+    "example": "Žurim na posao.",
+    "exampleTranscription": "[Журим на посао.]",
+    "exampleTranslation": "Я спешу на работу."
+  },
+  {
+    "word": "žurba",
+    "transcription": "[журба]",
+    "translation": "спешка",
+    "example": "Žurba nije dobra.",
+    "exampleTranscription": "[Журба није добра.]",
+    "exampleTranslation": "Спешка не хороша."
+  },
+  {
+    "word": "glavno",
+    "transcription": "[главно]",
+    "translation": "главное",
+    "example": "Glavno je da razumeš.",
+    "exampleTranscription": "[Главно је да разумеш.]",
+    "exampleTranslation": "Главное, что ты понимаешь."
+  },
+  {
+    "word": "piramide",
+    "transcription": "[пирамиде]",
+    "translation": "пирамиды",
+    "example": "Piramide su visoke.",
+    "exampleTranscription": "[Пирамиде су високе.]",
+    "exampleTranslation": "Пирамиды высокие."
+  },
+  {
+    "word": "ishrana",
+    "transcription": "[исхрана]",
+    "translation": "питание",
+    "example": "Ishrana je važna.",
+    "exampleTranscription": "[Исхрана је важна.]",
+    "exampleTranslation": "Питание важно."
+  },
+  {
+    "word": "čudno",
+    "transcription": "[чудно]",
+    "translation": "странно",
+    "example": "To je čudno.",
+    "exampleTranscription": "[То је чудно.]",
+    "exampleTranslation": "Это странно."
+  },
+  {
+    "word": "poljubac",
+    "transcription": "[пољубац]",
+    "translation": "поцелуй",
+    "example": "Šaljem poljubac.",
+    "exampleTranscription": "[Шаљем пољубац.]",
+    "exampleTranslation": "Я посылаю поцелуй."
+  },
+  {
+    "word": "ljubiti",
+    "transcription": "[љубити]",
+    "translation": "целовать",
+    "example": "Volim da ljubim dete.",
+    "exampleTranscription": "[Волим да љубим дете.]",
+    "exampleTranslation": "Я люблю целовать ребёнка."
+  },
+  {
+    "word": "ljubim",
+    "transcription": "[љубим]",
+    "translation": "я целую",
+    "example": "Ljubim te.",
+    "exampleTranscription": "[Љубим те.]",
+    "exampleTranslation": "Я тебя целую."
+  },
+  {
+    "word": "zovem",
+    "transcription": "[зовем]",
+    "translation": "я зову / я звоню",
+    "example": "Zovem mamu.",
+    "exampleTranscription": "[Зовем маму.]",
+    "exampleTranslation": "Я звоню маме."
+  },
+  {
+    "word": "čujem",
+    "transcription": "[чујем]",
+    "translation": "я слышу",
+    "example": "Čujem muziku.",
+    "exampleTranscription": "[Чујем музику.]",
+    "exampleTranslation": "Я слышу музыку."
+  },
+  {
+    "word": "buka",
+    "transcription": "[бука]",
+    "translation": "шум",
+    "example": "Buka je jaka.",
+    "exampleTranscription": "[Бука је јака.]",
+    "exampleTranslation": "Шум сильный."
+  },
+  {
+    "word": "bučno",
+    "transcription": "[бучно]",
+    "translation": "шумно",
+    "example": "Ovde je bučno.",
+    "exampleTranscription": "[Овде је бучно.]",
+    "exampleTranslation": "Здесь шумно."
+  },
+  {
+    "word": "pišem",
+    "transcription": "[пишем]",
+    "translation": "я пишу",
+    "example": "Pišem poruku.",
+    "exampleTranscription": "[Пишем поруку.]",
+    "exampleTranslation": "Я пишу сообщение."
+  },
+  {
+    "word": "brišem",
+    "transcription": "[бришем]",
+    "translation": "я удаляю / вытираю",
+    "example": "Brišem sto.",
+    "exampleTranscription": "[Бришем сто.]",
+    "exampleTranslation": "Я вытираю стол."
+  },
+  {
+    "word": "perem",
+    "transcription": "[перем]",
+    "translation": "я мою / стираю",
+    "example": "Perem ruke.",
+    "exampleTranscription": "[Перем руке.]",
+    "exampleTranslation": "Я мою руки."
+  },
+  {
+    "word": "plešem",
+    "transcription": "[плешем]",
+    "translation": "я танцую",
+    "example": "Plešem večeras.",
+    "exampleTranscription": "[Плешем вечерас.]",
+    "exampleTranslation": "Я танцую вечером."
+  },
+  {
+    "word": "plačem",
+    "transcription": "[плачем]",
+    "translation": "я плачу",
+    "example": "Plačem retko.",
+    "exampleTranscription": "[Плачем ретко.]",
+    "exampleTranslation": "Я редко плачу."
+  },
+  {
+    "word": "doručkujem",
+    "transcription": "[доручкујем]",
+    "translation": "я завтракаю",
+    "example": "Doručkujem rano.",
+    "exampleTranscription": "[Доручкујем рано.]",
+    "exampleTranslation": "Я завтракаю рано."
+  },
+  {
+    "word": "ručati",
+    "transcription": "[ручати]",
+    "translation": "обедать",
+    "example": "Ručam u podne.",
+    "exampleTranscription": "[Ручам у подне.]",
+    "exampleTranslation": "Я обедаю в полдень."
+  },
+  {
+    "word": "ručam",
+    "transcription": "[ручам]",
+    "translation": "я обедаю",
+    "example": "Ručam kod kuće.",
+    "exampleTranscription": "[Ручам код куће.]",
+    "exampleTranslation": "Я обедаю дома."
+  },
+  {
+    "word": "večerati",
+    "transcription": "[вечерати]",
+    "translation": "ужинать",
+    "example": "Večeram kasno.",
+    "exampleTranscription": "[Вечерам касно.]",
+    "exampleTranslation": "Я ужинаю поздно."
+  },
+  {
+    "word": "večeram",
+    "transcription": "[вечерам]",
+    "translation": "я ужинаю",
+    "example": "Večeram sa porodicom.",
+    "exampleTranscription": "[Вечерам са породицом.]",
+    "exampleTranslation": "Я ужинаю с семьёй."
+  },
+  {
+    "word": "pahuljice",
+    "transcription": "[пахуљице]",
+    "translation": "хлопья",
+    "example": "Jedem pahuljice za doručak.",
+    "exampleTranscription": "[Једем пахуљице за доручак.]",
+    "exampleTranslation": "Я ем хлопья на завтрак."
+  },
+  {
+    "word": "parati",
+    "transcription": "[парати]",
+    "translation": "распарывать / чистить",
+    "example": "Param staru odeću.",
+    "exampleTranscription": "[Парам стару одећу.]",
+    "exampleTranslation": "Я распарываю старую одежду."
+  },
+  {
+    "word": "pod",
+    "transcription": "[под]",
+    "translation": "пол",
+    "example": "Pod je čist.",
+    "exampleTranscription": "[Под је чист.]",
+    "exampleTranslation": "Пол чистый."
+  },
+  {
+    "word": "pijem",
+    "transcription": "[пијем]",
+    "translation": "я пью",
+    "example": "Pijem vodu.",
+    "exampleTranscription": "[Пијем воду.]",
+    "exampleTranslation": "Я пью воду."
+  },
+  {
+    "word": "čaša",
+    "transcription": "[чаша]",
+    "translation": "стакан",
+    "example": "Čaša je puna.",
+    "exampleTranscription": "[Чаша је пуна.]",
+    "exampleTranslation": "Стакан полный."
+  },
+  {
+    "word": "piće",
+    "transcription": "[пиће]",
+    "translation": "напиток",
+    "example": "Piće je hladno.",
+    "exampleTranscription": "[Пиће је хладно.]",
+    "exampleTranslation": "Напиток холодный."
+  },
+  {
+    "word": "razumem",
+    "transcription": "[разумем]",
+    "translation": "я понимаю",
+    "example": "Razumem pitanje.",
+    "exampleTranscription": "[Разумем питање.]",
+    "exampleTranslation": "Я понимаю вопрос."
+  },
+  {
+    "word": "svuda",
+    "transcription": "[свуда]",
+    "translation": "везде",
+    "example": "Tražim te svuda.",
+    "exampleTranscription": "[Тражим те свуда.]",
+    "exampleTranslation": "Я ищу тебя везде."
+  },
+  {
+    "word": "odgovoran",
+    "transcription": "[одговоран]",
+    "translation": "ответственный",
+    "example": "On je odgovoran čovek.",
+    "exampleTranscription": "[Он је одговоран човек.]",
+    "exampleTranslation": "Он ответственный человек."
+  },
+  {
+    "word": "šta se dešava",
+    "transcription": "[шта се дешава]",
+    "translation": "что происходит",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "hoću",
+    "transcription": "[хоћу]",
+    "translation": "я хочу",
+    "example": "Hoću vodu.",
+    "exampleTranscription": "[Хоћу воду.]",
+    "exampleTranslation": "Я хочу воду."
+  },
+  {
+    "word": "hoćeš",
+    "transcription": "[хоћеш]",
+    "translation": "ты хочешь",
+    "example": "Hoćeš kafu?",
+    "exampleTranscription": "[Хоћеш кафу?]",
+    "exampleTranslation": "Ты хочешь кофе?"
+  },
+  {
+    "word": "hoće",
+    "transcription": "[хоће]",
+    "translation": "он/она хочет",
+    "example": "On hoće čaj.",
+    "exampleTranscription": "[Он хоће чај.]",
+    "exampleTranslation": "Он хочет чай."
+  },
+  {
+    "word": "hoćemo",
+    "transcription": "[хоћемо]",
+    "translation": "мы хотим",
+    "example": "Hoćemo pauzu.",
+    "exampleTranscription": "[Хоћемо паузу.]",
+    "exampleTranslation": "Мы хотим перерыв."
+  },
+  {
+    "word": "hoćete",
+    "transcription": "[хоћете]",
+    "translation": "вы хотите",
+    "example": "Hoćete račun?",
+    "exampleTranscription": "[Хоћете рачун?]",
+    "exampleTranslation": "Вы хотите счёт?"
+  },
+  {
+    "word": "neću",
+    "transcription": "[нећу]",
+    "translation": "я не хочу / не буду",
+    "example": "Neću kafu.",
+    "exampleTranscription": "[Нећу кафу.]",
+    "exampleTranslation": "Я не хочу кофе."
+  },
+  {
+    "word": "nećeš",
+    "transcription": "[нећеш]",
+    "translation": "ты не хочешь / не будешь",
+    "example": "Nećeš zakasniti.",
+    "exampleTranscription": "[Нећеш закаснити.]",
+    "exampleTranslation": "Ты не опоздаешь."
+  },
+  {
+    "word": "neće",
+    "transcription": "[неће]",
+    "translation": "он/она не хочет / не будет",
+    "example": "On neće doći.",
+    "exampleTranscription": "[Он неће доћи.]",
+    "exampleTranslation": "Он не придёт."
+  },
+  {
+    "word": "nećemo",
+    "transcription": "[нећемо]",
+    "translation": "мы не хотим / не будем",
+    "example": "Nećemo čekati.",
+    "exampleTranscription": "[Нећемо чекати.]",
+    "exampleTranslation": "Мы не будем ждать."
+  },
+  {
+    "word": "nećete",
+    "transcription": "[нећете]",
+    "translation": "вы не хотите / не будете",
+    "example": "Nećete pogrešiti.",
+    "exampleTranscription": "[Нећете погрешити.]",
+    "exampleTranslation": "Вы не ошибётесь."
+  },
+  {
+    "word": "mogu",
+    "transcription": "[могу]",
+    "translation": "я могу / они могут",
+    "example": "Mogu da pomognem.",
+    "exampleTranscription": "[Могу да помогнем.]",
+    "exampleTranslation": "Я могу помочь."
+  },
+  {
+    "word": "možeš",
+    "transcription": "[можеш]",
+    "translation": "ты можешь",
+    "example": "Možeš da sedneš.",
+    "exampleTranscription": "[Можеш да седнеш.]",
+    "exampleTranslation": "Ты можешь сесть."
+  },
+  {
+    "word": "može",
+    "transcription": "[може]",
+    "translation": "он/она может",
+    "example": "Može da dođe.",
+    "exampleTranscription": "[Може да дође.]",
+    "exampleTranslation": "Он может прийти."
+  },
+  {
+    "word": "možemo",
+    "transcription": "[можемо]",
+    "translation": "мы можем",
+    "example": "Možemo da krenemo.",
+    "exampleTranscription": "[Можемо да кренемо.]",
+    "exampleTranslation": "Мы можем пойти."
+  },
+  {
+    "word": "možete",
+    "transcription": "[можете]",
+    "translation": "вы можете",
+    "example": "Možete da platite karticom.",
+    "exampleTranscription": "[Можете да платите картицом.]",
+    "exampleTranslation": "Вы можете оплатить картой."
+  },
+  {
+    "word": "smeti",
+    "transcription": "[смети]",
+    "translation": "мочь / иметь разрешение",
+    "example": "Smeš da pitaš.",
+    "exampleTranscription": "[Смеш да питаш.]",
+    "exampleTranslation": "Ты можешь спросить."
+  },
+  {
+    "word": "smem",
+    "transcription": "[смем]",
+    "translation": "мне можно",
+    "example": "Smem da uđem.",
+    "exampleTranscription": "[Смем да уђем.]",
+    "exampleTranslation": "Мне можно войти."
+  },
+  {
+    "word": "smeš",
+    "transcription": "[смеш]",
+    "translation": "тебе можно",
+    "example": "Smeš da ideš.",
+    "exampleTranscription": "[Смеш да идеш.]",
+    "exampleTranslation": "Тебе можно идти."
+  },
+  {
+    "word": "sme",
+    "transcription": "[сме]",
+    "translation": "ему/ей можно",
+    "example": "On sme da ostane.",
+    "exampleTranscription": "[Он сме да остане.]",
+    "exampleTranslation": "Ему можно остаться."
+  },
+  {
+    "word": "smemo",
+    "transcription": "[смемо]",
+    "translation": "нам можно",
+    "example": "Smemo da čekamo ovde.",
+    "exampleTranscription": "[Смемо да чекамо овде.]",
+    "exampleTranslation": "Нам можно ждать здесь."
+  },
+  {
+    "word": "smete",
+    "transcription": "[смете]",
+    "translation": "вам можно",
+    "example": "Smete da sednete.",
+    "exampleTranscription": "[Смете да седнете.]",
+    "exampleTranslation": "Вам можно сесть."
+  },
+  {
+    "word": "smeju",
+    "transcription": "[смеју]",
+    "translation": "им можно",
+    "example": "Oni smeju da uđu.",
+    "exampleTranscription": "[Они смеју да уђу.]",
+    "exampleTranslation": "Им можно войти."
+  },
+  {
+    "word": "ne smem",
+    "transcription": "[не смем]",
+    "translation": "мне нельзя",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "umeti",
+    "transcription": "[умети]",
+    "translation": "уметь",
+    "example": "Umem da plivam.",
+    "exampleTranscription": "[Умем да пливам.]",
+    "exampleTranslation": "Я умею плавать."
+  },
+  {
+    "word": "umem",
+    "transcription": "[умем]",
+    "translation": "я умею",
+    "example": "Umem da kuvam.",
+    "exampleTranscription": "[Умем да кувам.]",
+    "exampleTranslation": "Я умею готовить."
+  },
+  {
+    "word": "ako",
+    "transcription": "[ако]",
+    "translation": "если",
+    "example": "Ako imaš vremena, dođi.",
+    "exampleTranscription": "[Ако имаш времена, дођи.]",
+    "exampleTranslation": "Если у тебя есть время, приходи."
+  },
+  {
+    "word": "vičem",
+    "transcription": "[вичем]",
+    "translation": "я кричу",
+    "example": "Vičem samo kad moram.",
+    "exampleTranscription": "[Вичем само кад морам.]",
+    "exampleTranslation": "Я кричу только когда должен."
+  },
+  {
+    "word": "bol",
+    "transcription": "[бол]",
+    "translation": "боль",
+    "example": "Bol je jak.",
+    "exampleTranscription": "[Бол је јак.]",
+    "exampleTranslation": "Боль сильная."
+  },
+  {
+    "word": "bolovi",
+    "transcription": "[болови]",
+    "translation": "боли",
+    "example": "Imam bolove u leđima.",
+    "exampleTranscription": "[Имам болове у леђима.]",
+    "exampleTranslation": "У меня боли в спине."
+  },
+  {
+    "word": "dame imaju prednost",
+    "transcription": "[даме имају предност]",
+    "translation": "дамам вперёд",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "kupatilo",
+    "transcription": "[купатило]",
+    "translation": "ванная",
+    "example": "Kupatilo je čisto.",
+    "exampleTranscription": "[Купатило је чисто.]",
+    "exampleTranslation": "Ванная чистая."
+  },
+  {
+    "word": "kažem",
+    "transcription": "[кажем]",
+    "translation": "я говорю / скажу",
+    "example": "Kažem istinu.",
+    "exampleTranscription": "[Кажем истину.]",
+    "exampleTranslation": "Я говорю правду."
+  },
+  {
+    "word": "slagati se",
+    "transcription": "[слагати се]",
+    "translation": "соглашаться",
+    "example": "Slažem se sa tobom.",
+    "exampleTranscription": "[Слажем се са тобом.]",
+    "exampleTranslation": "Я согласен с тобой."
+  },
+  {
+    "word": "slažem se",
+    "transcription": "[слажем се]",
+    "translation": "я согласен",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "napuštenim",
+    "transcription": "[напуштеним]",
+    "translation": "брошенным",
+    "example": "Pomažem napuštenim životinjama.",
+    "exampleTranscription": "[Помажем напуштеним животињама.]",
+    "exampleTranslation": "Я помогаю брошенным животным."
+  },
+  {
+    "word": "putujem",
+    "transcription": "[путујем]",
+    "translation": "я путешествую",
+    "example": "Putujem u Srbiju.",
+    "exampleTranscription": "[Путујем у Србију.]",
+    "exampleTranslation": "Я еду в Сербию."
+  },
+  {
+    "word": "u inostranstvo",
+    "transcription": "[у иностранство]",
+    "translation": "за границу",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "kupujem",
+    "transcription": "[купујем]",
+    "translation": "я покупаю",
+    "example": "Kupujem hleb.",
+    "exampleTranscription": "[Купујем хлеб.]",
+    "exampleTranslation": "Я покупаю хлеб."
+  },
+  {
+    "word": "pijaći",
+    "transcription": "[пијаћи]",
+    "translation": "питьевой",
+    "example": "Ovo je pijaća voda.",
+    "exampleTranscription": "[Ово је пијаћа вода.]",
+    "exampleTranslation": "Это питьевая вода."
+  },
+  {
+    "word": "direktan",
+    "transcription": "[директан]",
+    "translation": "прямой",
+    "example": "Let je direktan.",
+    "exampleTranscription": "[Лет је директан.]",
+    "exampleTranslation": "Рейс прямой."
+  },
+  {
+    "word": "proleće",
+    "transcription": "[пролеће]",
+    "translation": "весна",
+    "example": "Proleće je lepo.",
+    "exampleTranscription": "[Пролеће је лепо.]",
+    "exampleTranslation": "Весна красивая."
+  },
+  {
+    "word": "stepeni",
+    "transcription": "[степени]",
+    "translation": "градусы",
+    "example": "Danas je dvadeset stepeni.",
+    "exampleTranscription": "[Данас је двадесет степени.]",
+    "exampleTranslation": "Сегодня двадцать градусов."
+  },
+  {
+    "word": "lokacija",
+    "transcription": "[локација]",
+    "translation": "место / локация",
+    "example": "Lokacija je dobra.",
+    "exampleTranscription": "[Локација је добра.]",
+    "exampleTranslation": "Локация хорошая."
+  },
+  {
+    "word": "nije jak",
+    "transcription": "[није јак]",
+    "translation": "не сильный",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "raspon",
+    "transcription": "[распон]",
+    "translation": "диапазон",
+    "example": "Raspon cena je velik.",
+    "exampleTranscription": "[Распон цена је велик.]",
+    "exampleTranslation": "Диапазон цен большой."
+  },
+  {
+    "word": "tržni centar",
+    "transcription": "[тржни центар]",
+    "translation": "торговый центр",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "gurati",
+    "transcription": "[гурати]",
+    "translation": "толкать",
+    "example": "Ne guraj vrata.",
+    "exampleTranscription": "[Не гурај врата.]",
+    "exampleTranslation": "Не толкай дверь."
+  },
+  {
+    "word": "kolica",
+    "transcription": "[колица]",
+    "translation": "коляска / тележка",
+    "example": "Kolica su ispred prodavnice.",
+    "exampleTranscription": "[Колица су испред продавнице.]",
+    "exampleTranslation": "Тележка перед магазином."
+  },
+  {
+    "word": "haljina",
+    "transcription": "[хаљина]",
+    "translation": "платье",
+    "example": "Haljina je lepa.",
+    "exampleTranscription": "[Хаљина је лепа.]",
+    "exampleTranslation": "Платье красивое."
+  },
+  {
+    "word": "kucati",
+    "transcription": "[куцати]",
+    "translation": "стучать / печатать",
+    "example": "Kucam poruku.",
+    "exampleTranscription": "[Куцам поруку.]",
+    "exampleTranslation": "Я печатаю сообщение."
+  },
+  {
+    "word": "sipati",
+    "transcription": "[сипати]",
+    "translation": "наливать",
+    "example": "Sipam vodu u čašu.",
+    "exampleTranscription": "[Сипам воду у чашу.]",
+    "exampleTranslation": "Я наливаю воду в стакан."
+  },
+  {
+    "word": "ponavljati",
+    "transcription": "[понављати]",
+    "translation": "повторять",
+    "example": "Ponavljam novu reč.",
+    "exampleTranscription": "[Понављам нову реч.]",
+    "exampleTranslation": "Я повторяю новое слово."
+  },
+  {
+    "word": "prozor",
+    "transcription": "[прозор]",
+    "translation": "окно",
+    "example": "Prozor je otvoren.",
+    "exampleTranscription": "[Прозор је отворен.]",
+    "exampleTranslation": "Окно открыто."
+  },
+  {
+    "word": "delimično",
+    "transcription": "[делимично]",
+    "translation": "частично",
+    "example": "Delimično razumem.",
+    "exampleTranscription": "[Делимично разумем.]",
+    "exampleTranslation": "Я частично понимаю."
+  },
+  {
+    "word": "slaviti",
+    "transcription": "[славити]",
+    "translation": "праздновать",
+    "example": "Slavimo rođendan.",
+    "exampleTranscription": "[Славимо рођендан.]",
+    "exampleTranslation": "Мы празднуем день рождения."
+  },
+  {
+    "word": "kafić",
+    "transcription": "[кафић]",
+    "translation": "кафе",
+    "example": "Kafić je blizu.",
+    "exampleTranscription": "[Кафић је близу.]",
+    "exampleTranslation": "Кафе близко."
+  },
+  {
+    "word": "sladoled",
+    "transcription": "[сладолед]",
+    "translation": "мороженое",
+    "example": "Volim sladoled.",
+    "exampleTranscription": "[Волим сладолед.]",
+    "exampleTranslation": "Я люблю мороженое."
+  },
+  {
+    "word": "u kornetu",
+    "transcription": "[у корнету]",
+    "translation": "в рожке",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "od",
+    "transcription": "[од]",
+    "translation": "от / из",
+    "example": "Dobio sam poruku od mame.",
+    "exampleTranscription": "[Добио сам поруку од маме.]",
+    "exampleTranslation": "Я получил сообщение от мамы."
+  },
+  {
+    "word": "obaveze",
+    "transcription": "[обавезе]",
+    "translation": "дела / обязанности",
+    "example": "Imam mnogo obaveza.",
+    "exampleTranscription": "[Имам много обавеза.]",
+    "exampleTranslation": "У меня много дел."
+  },
+  {
+    "word": "avionske karte",
+    "transcription": "[авионске карте]",
+    "translation": "билеты на самолёт",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "nemati",
+    "transcription": "[немати]",
+    "translation": "не иметь",
+    "example": "Neću imati vremena.",
+    "exampleTranscription": "[Нећу имати времена.]",
+    "exampleTranslation": "У меня не будет времени."
+  },
+  {
+    "word": "nisam imao",
+    "transcription": "[нисам имао]",
+    "translation": "у меня не было",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "izložba",
+    "transcription": "[изложба]",
+    "translation": "выставка",
+    "example": "Izložba je zanimljiva.",
+    "exampleTranscription": "[Изложба је занимљива.]",
+    "exampleTranslation": "Выставка интересная."
+  },
+  {
+    "word": "poznata",
+    "transcription": "[позната]",
+    "translation": "известная",
+    "example": "Ona je poznata glumica.",
+    "exampleTranscription": "[Она је позната глумица.]",
+    "exampleTranslation": "Она известная актриса."
+  },
+  {
+    "word": "omiljeno",
+    "transcription": "[омиљено]",
+    "translation": "любимое",
+    "example": "Ovo je moje omiljeno mesto.",
+    "exampleTranscription": "[Ово је моје омиљено место.]",
+    "exampleTranslation": "Это моё любимое место."
+  },
+  {
+    "word": "jeftino",
+    "transcription": "[јефтино]",
+    "translation": "дёшево",
+    "example": "Ovde je jeftino.",
+    "exampleTranscription": "[Овде је јефтино.]",
+    "exampleTranslation": "Здесь дёшево."
+  },
+  {
+    "word": "skupo",
+    "transcription": "[скупо]",
+    "translation": "дорого",
+    "example": "To je skupo.",
+    "exampleTranscription": "[То је скупо.]",
+    "exampleTranslation": "Это дорого."
+  },
+  {
+    "word": "nema veze",
+    "transcription": "[нема везе]",
+    "translation": "ничего страшного",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "uživati",
+    "transcription": "[уживати]",
+    "translation": "наслаждаться",
+    "example": "Uživam u odmoru.",
+    "exampleTranscription": "[Уживам у одмору.]",
+    "exampleTranslation": "Я наслаждаюсь отдыхом."
+  },
+  {
+    "word": "fantastične",
+    "transcription": "[фантастичне]",
+    "translation": "невероятные / фантастические",
+    "example": "Plaže su fantastične.",
+    "exampleTranscription": "[Плаже су фантастичне.]",
+    "exampleTranslation": "Пляжи фантастические."
+  },
+  {
+    "word": "tragove",
+    "transcription": "[трагове]",
+    "translation": "следы",
+    "example": "Vidim tragove u snegu.",
+    "exampleTranscription": "[Видим трагове у снегу.]",
+    "exampleTranslation": "Я вижу следы на снегу."
+  },
+  {
+    "word": "iznenađenje",
+    "transcription": "[изненађење]",
+    "translation": "сюрприз",
+    "example": "Imam iznenađenje za tebe.",
+    "exampleTranscription": "[Имам изненађење за тебе.]",
+    "exampleTranslation": "У меня для тебя сюрприз."
+  },
+  {
+    "word": "prošlost",
+    "transcription": "[прошлост]",
+    "translation": "прошлое",
+    "example": "Prošlost je važna.",
+    "exampleTranscription": "[Прошлост је важна.]",
+    "exampleTranslation": "Прошлое важно."
+  },
+  {
+    "word": "kao da",
+    "transcription": "[као да]",
+    "translation": "как будто",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "pretrpane",
+    "transcription": "[претрпане]",
+    "translation": "переполненные",
+    "example": "Ulice su pretrpane ljudima.",
+    "exampleTranscription": "[Улице су претрпане људима.]",
+    "exampleTranslation": "Улицы переполнены людьми."
+  },
+  {
+    "word": "sve u svemu",
+    "transcription": "[све у свему]",
+    "translation": "всё в целом",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "Beč",
+    "transcription": "[Беч]",
+    "translation": "Вена",
+    "example": "Beč je lep grad.",
+    "exampleTranscription": "[Беч је леп град.]",
+    "exampleTranslation": "Вена красивый город."
+  },
+  {
+    "word": "zemljotres",
+    "transcription": "[земљотрес]",
+    "translation": "землетрясение",
+    "example": "Zemljotres je bio jak.",
+    "exampleTranscription": "[Земљотрес је био јак.]",
+    "exampleTranslation": "Землетрясение было сильным."
+  },
+  {
+    "word": "u jesen",
+    "transcription": "[у јесен]",
+    "translation": "осенью",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "ustati",
+    "transcription": "[устати]",
+    "translation": "встать",
+    "example": "Ustajem rano.",
+    "exampleTranscription": "[Устајем рано.]",
+    "exampleTranslation": "Я встаю рано."
+  },
+  {
+    "word": "vremeplov",
+    "transcription": "[времеплов]",
+    "translation": "машина времени",
+    "example": "Vremeplov je iz filma.",
+    "exampleTranscription": "[Времеплов је из филма.]",
+    "exampleTranslation": "Машина времени из фильма."
+  },
+  {
+    "word": "trčati",
+    "transcription": "[трчати]",
+    "translation": "бегать",
+    "example": "Trčim u parku.",
+    "exampleTranscription": "[Трчим у парку.]",
+    "exampleTranslation": "Я бегаю в парке."
+  },
+  {
+    "word": "sresti",
+    "transcription": "[срести]",
+    "translation": "встретить",
+    "example": "Želim da sretnem druga.",
+    "exampleTranscription": "[Желим да сретнем друга.]",
+    "exampleTranslation": "Я хочу встретить друга."
+  },
+  {
+    "word": "jer",
+    "transcription": "[јер]",
+    "translation": "потому что",
+    "example": "Ostajem kod kuće jer sam umoran.",
+    "exampleTranscription": "[Остајем код куће јер сам уморан.]",
+    "exampleTranslation": "Я остаюсь дома, потому что устал."
+  },
+  {
+    "word": "prekjuče",
+    "transcription": "[прекјуче]",
+    "translation": "позавчера",
+    "example": "Prekjuče sam radio.",
+    "exampleTranscription": "[Прекјуче сам радио.]",
+    "exampleTranslation": "Позавчера я работал."
+  },
+  {
+    "word": "sinoć",
+    "transcription": "[синоћ]",
+    "translation": "вчера вечером",
+    "example": "Sinoć sam gledao film.",
+    "exampleTranscription": "[Синоћ сам гледао филм.]",
+    "exampleTranslation": "Вчера вечером я смотрел фильм."
+  },
+  {
+    "word": "noćas",
+    "transcription": "[ноћас]",
+    "translation": "ночью",
+    "example": "Noćas nisam spavao.",
+    "exampleTranscription": "[Ноћас нисам спавао.]",
+    "exampleTranslation": "Ночью я не спал."
+  },
+  {
+    "word": "prošle godine",
+    "transcription": "[прошле године]",
+    "translation": "в прошлом году",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "prošle nedelje",
+    "transcription": "[прошле недеље]",
+    "translation": "на прошлой неделе",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "prošlog vikenda",
+    "transcription": "[прошлог викенда]",
+    "translation": "в прошлые выходные",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "pre dva dana",
+    "transcription": "[пре два дана]",
+    "translation": "два дня назад",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "pre mesec dana",
+    "transcription": "[пре месец дана]",
+    "translation": "месяц назад",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "pre dve godine",
+    "transcription": "[пре две године]",
+    "translation": "два года назад",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "izveštaj",
+    "transcription": "[извештај]",
+    "translation": "отчёт",
+    "example": "Pišem izveštaj.",
+    "exampleTranscription": "[Пишем извештај.]",
+    "exampleTranslation": "Я пишу отчёт."
+  },
+  {
+    "word": "ne sećam se",
+    "transcription": "[не сећам се]",
+    "translation": "я не помню",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "zaboravila sam",
+    "transcription": "[заборавила сам]",
+    "translation": "я забыла",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "sve u redu",
+    "transcription": "[све у реду]",
+    "translation": "всё в порядке",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "kijati",
+    "transcription": "[кијати]",
+    "translation": "чихать",
+    "example": "Kijam često.",
+    "exampleTranscription": "[Кијам често.]",
+    "exampleTranslation": "Я часто чихаю."
+  },
+  {
+    "word": "oči me svrbe",
+    "transcription": "[очи ме сврбе]",
+    "translation": "глаза чешутся",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "svratimo",
+    "transcription": "[свратимо]",
+    "translation": "зайдём",
+    "example": "Svratimo u kafić.",
+    "exampleTranscription": "[Свратимо у кафић.]",
+    "exampleTranslation": "Зайдём в кафе."
+  },
+  {
+    "word": "pocrveneti",
+    "transcription": "[поцрвенети]",
+    "translation": "покраснеть",
+    "example": "Lice može da pocrveni.",
+    "exampleTranscription": "[Лице може да поцрвени.]",
+    "exampleTranslation": "Лицо может покраснеть."
+  },
+  {
+    "word": "pocrneti",
+    "transcription": "[поцрнети]",
+    "translation": "загореть / почернеть",
+    "example": "Koža može da pocrni na suncu.",
+    "exampleTranscription": "[Кожа може да поцрни на сунцу.]",
+    "exampleTranslation": "Кожа может загореть на солнце."
+  },
+  {
+    "word": "peške",
+    "transcription": "[пешке]",
+    "translation": "пешком",
+    "example": "Idem peške.",
+    "exampleTranscription": "[Идем пешке.]",
+    "exampleTranslation": "Я иду пешком."
+  },
+  {
+    "word": "strpljenje",
+    "transcription": "[стрпљење]",
+    "translation": "терпение",
+    "example": "Treba mi strpljenje.",
+    "exampleTranscription": "[Треба ми стрпљење.]",
+    "exampleTranslation": "Мне нужно терпение."
+  },
+  {
+    "word": "hodam",
+    "transcription": "[ходам]",
+    "translation": "я хожу",
+    "example": "Hodam svaki dan.",
+    "exampleTranscription": "[Ходам сваки дан.]",
+    "exampleTranslation": "Я хожу каждый день."
+  },
+  {
+    "word": "idem",
+    "transcription": "[идем]",
+    "translation": "я иду / еду",
+    "example": "Idem tamo.",
+    "exampleTranscription": "[Идем тамо.]",
+    "exampleTranslation": "Я иду туда."
+  },
+  {
+    "word": "različite",
+    "transcription": "[различите]",
+    "translation": "разные",
+    "example": "Imam različite knjige.",
+    "exampleTranscription": "[Имам различите књиге.]",
+    "exampleTranslation": "У меня разные книги."
+  },
+  {
+    "word": "omiljena",
+    "transcription": "[омиљена]",
+    "translation": "любимая",
+    "example": "Ovo je moja omiljena pesma.",
+    "exampleTranscription": "[Ово је моја омиљена песма.]",
+    "exampleTranslation": "Это моя любимая песня."
+  },
+  {
+    "word": "dosadna",
+    "transcription": "[досадна]",
+    "translation": "скучная",
+    "example": "Lekcija je dosadna.",
+    "exampleTranscription": "[Лекција је досадна.]",
+    "exampleTranslation": "Урок скучный."
+  },
+  {
+    "word": "sigurni",
+    "transcription": "[сигурни]",
+    "translation": "уверенные / безопасные",
+    "example": "Budite sigurni.",
+    "exampleTranscription": "[Будите сигурни.]",
+    "exampleTranslation": "Будьте уверены."
+  },
+  {
+    "word": "dela",
+    "transcription": "[дела]",
+    "translation": "дела",
+    "example": "Dela su važnija od reči.",
+    "exampleTranscription": "[Дела су важнија од речи.]",
+    "exampleTranslation": "Дела важнее слов."
+  },
+  {
+    "word": "seoski",
+    "transcription": "[сеоски]",
+    "translation": "сельский",
+    "example": "To je seoski put.",
+    "exampleTranscription": "[То је сеоски пут.]",
+    "exampleTranslation": "Это сельская дорога."
+  },
+  {
+    "word": "ložiti",
+    "transcription": "[ложити]",
+    "translation": "топить",
+    "example": "Ložim peć zimi.",
+    "exampleTranscription": "[Ложим пећ зими.]",
+    "exampleTranslation": "Я топлю печь зимой."
+  },
+  {
+    "word": "peć",
+    "transcription": "[пећ]",
+    "translation": "печь",
+    "example": "Peć je topla.",
+    "exampleTranscription": "[Пећ је топла.]",
+    "exampleTranslation": "Печь тёплая."
+  },
+  {
+    "word": "nasmejani",
+    "transcription": "[насмејани]",
+    "translation": "улыбчивые",
+    "example": "Ljudi su nasmejani.",
+    "exampleTranscription": "[Људи су насмејани.]",
+    "exampleTranslation": "Люди улыбчивые."
+  },
+  {
+    "word": "klimam",
+    "transcription": "[климам]",
+    "translation": "я киваю",
+    "example": "Klimam glavom.",
+    "exampleTranscription": "[Климам главом.]",
+    "exampleTranslation": "Я киваю головой."
+  },
+  {
+    "word": "sarma",
+    "transcription": "[сарма]",
+    "translation": "голубцы",
+    "example": "Sarma je ukusna.",
+    "exampleTranscription": "[Сарма је укусна.]",
+    "exampleTranslation": "Сарма вкусная."
+  },
+  {
+    "word": "masna",
+    "transcription": "[масна]",
+    "translation": "жирная",
+    "example": "Hrana je masna.",
+    "exampleTranscription": "[Храна је масна.]",
+    "exampleTranslation": "Еда жирная."
+  },
+  {
+    "word": "čestitku",
+    "transcription": "[честитку]",
+    "translation": "поздравительную открытку",
+    "example": "Šaljem čestitku.",
+    "exampleTranscription": "[Шаљем честитку.]",
+    "exampleTranslation": "Я отправляю поздравительную открытку."
+  },
+  {
+    "word": "koliko košta",
+    "transcription": "[колико кошта]",
+    "translation": "сколько стоит",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "koliko je",
+    "transcription": "[колико је]",
+    "translation": "сколько стоит / сколько это",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "sitno",
+    "transcription": "[ситно]",
+    "translation": "мелочь",
+    "example": "Imam sitno.",
+    "exampleTranscription": "[Имам ситно.]",
+    "exampleTranslation": "У меня есть мелочь."
+  },
+  {
+    "word": "kusur",
+    "transcription": "[кусур]",
+    "translation": "сдача",
+    "example": "Kusur je na stolu.",
+    "exampleTranscription": "[Кусур је на столу.]",
+    "exampleTranslation": "Сдача на столе."
+  },
+  {
+    "word": "samo trenutak",
+    "transcription": "[само тренутак]",
+    "translation": "секунду / только момент",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "samo malo",
+    "transcription": "[само мало]",
+    "translation": "подождите немного",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "voće",
+    "transcription": "[воће]",
+    "translation": "фрукты",
+    "example": "Kupujem voće.",
+    "exampleTranscription": "[Купујем воће.]",
+    "exampleTranslation": "Я покупаю фрукты."
+  },
+  {
+    "word": "povrće",
+    "transcription": "[поврће]",
+    "translation": "овощи",
+    "example": "Jedem povrće svaki dan.",
+    "exampleTranscription": "[Једем поврће сваки дан.]",
+    "exampleTranslation": "Я ем овощи каждый день."
+  },
+  {
+    "word": "valjda",
+    "transcription": "[ваљда]",
+    "translation": "вроде / наверное",
+    "example": "Valjda je sve u redu.",
+    "exampleTranscription": "[Ваљда је све у реду.]",
+    "exampleTranslation": "Наверное, всё в порядке."
+  },
+  {
+    "word": "struja",
+    "transcription": "[струја]",
+    "translation": "электричество",
+    "example": "Nema struje.",
+    "exampleTranscription": "[Нема струје.]",
+    "exampleTranslation": "Нет электричества."
+  },
+  {
+    "word": "dugove",
+    "transcription": "[дугове]",
+    "translation": "долги",
+    "example": "Imam dugove.",
+    "exampleTranscription": "[Имам дугове.]",
+    "exampleTranslation": "У меня есть долги."
+  },
+  {
+    "word": "lud",
+    "transcription": "[луд]",
+    "translation": "сумасшедший",
+    "example": "To je lud plan.",
+    "exampleTranscription": "[То је луд план.]",
+    "exampleTranslation": "Это сумасшедший план."
+  },
+  {
+    "word": "čaše",
+    "transcription": "[чаше]",
+    "translation": "стаканы",
+    "example": "Čaše su čiste.",
+    "exampleTranscription": "[Чаше су чисте.]",
+    "exampleTranslation": "Стаканы чистые."
+  },
+  {
+    "word": "hiljade",
+    "transcription": "[хиљаде]",
+    "translation": "тысячи",
+    "example": "Hiljade ljudi su ovde.",
+    "exampleTranscription": "[Хиљаде људи су овде.]",
+    "exampleTranslation": "Тысячи людей здесь."
+  },
+  {
+    "word": "šuma",
+    "transcription": "[шума]",
+    "translation": "лес",
+    "example": "Šuma je velika.",
+    "exampleTranscription": "[Шума је велика.]",
+    "exampleTranslation": "Лес большой."
+  },
+  {
+    "word": "se bojim",
+    "transcription": "[се бојим]",
+    "translation": "я боюсь",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "bučan",
+    "transcription": "[бучан]",
+    "translation": "шумный",
+    "example": "Komšija je bučan.",
+    "exampleTranscription": "[Комшија је бучан.]",
+    "exampleTranslation": "Сосед шумный."
+  },
+  {
+    "word": "prehladna",
+    "transcription": "[прехладна]",
+    "translation": "слишком холодная",
+    "example": "Voda je prehladna.",
+    "exampleTranscription": "[Вода је прехладна.]",
+    "exampleTranslation": "Вода слишком холодная."
+  },
+  {
+    "word": "praviti",
+    "transcription": "[правити]",
+    "translation": "делать / создавать",
+    "example": "Pravim ručak.",
+    "exampleTranscription": "[Правим ручак.]",
+    "exampleTranslation": "Я готовлю обед."
+  },
+  {
+    "word": "ja mislim da",
+    "transcription": "[ја мислим да]",
+    "translation": "я думаю, что",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "ja znam da",
+    "transcription": "[ја знам да]",
+    "translation": "я знаю, что",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "gubiti",
+    "transcription": "[губити]",
+    "translation": "терять",
+    "example": "Ne volim da gubim stvari.",
+    "exampleTranscription": "[Не волим да губим ствари.]",
+    "exampleTranslation": "Я не люблю терять вещи."
+  },
+  {
+    "word": "stvari",
+    "transcription": "[ствари]",
+    "translation": "вещи",
+    "example": "Stvari su u torbi.",
+    "exampleTranscription": "[Ствари су у торби.]",
+    "exampleTranslation": "Вещи в сумке."
+  },
+  {
+    "word": "čarape",
+    "transcription": "[чарапе]",
+    "translation": "носки",
+    "example": "Čarape su čiste.",
+    "exampleTranscription": "[Чарапе су чисте.]",
+    "exampleTranslation": "Носки чистые."
+  },
+  {
+    "word": "sličan",
+    "transcription": "[сличан]",
+    "translation": "похожий",
+    "example": "On je sličan bratu.",
+    "exampleTranscription": "[Он је сличан брату.]",
+    "exampleTranslation": "Он похож на брата."
+  },
+  {
+    "word": "ko radi, taj i greši",
+    "transcription": "[ко ради, тај и греши]",
+    "translation": "кто работает, тот и ошибается",
+    "example": "",
+    "exampleTranscription": "",
+    "exampleTranslation": ""
+  },
+  {
+    "word": "dvorište",
+    "transcription": "[двориште]",
+    "translation": "двор",
+    "example": "Dvorište je veliko.",
+    "exampleTranscription": "[Двориште је велико.]",
+    "exampleTranslation": "Двор большой."
+  },
+  {
+    "word": "drugi",
+    "transcription": "[други]",
+    "translation": "второй",
+    "example": "Drugi sprat je gore.",
+    "exampleTranscription": "[Други спрат је горе.]",
+    "exampleTranslation": "Второй этаж наверху."
+  },
+  {
+    "word": "preko",
+    "transcription": "[преко]",
+    "translation": "через",
+    "example": "Idem preko mosta.",
+    "exampleTranscription": "[Идем преко моста.]",
+    "exampleTranslation": "Я иду через мост."
+  },
+  {
+    "word": "stvarno",
+    "transcription": "[стварно]",
+    "translation": "серьёзно / действительно",
+    "example": "Stvarno je lepo.",
+    "exampleTranscription": "[Стварно је лепо.]",
+    "exampleTranslation": "Это действительно красиво."
   }
 ];

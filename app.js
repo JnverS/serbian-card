@@ -79,21 +79,40 @@ function loadCards() {
 }
 
 function getCardKey(card) {
-  return `${card.word.trim().toLowerCase()}::${card.translation.trim().toLowerCase()}`;
+  return `${(card.word || "").trim().toLowerCase()}::${(card.translation || "").trim().toLowerCase()}`;
 }
 
 function mergeWithDefaultCards(savedCards) {
   const defaultByKey = new Map(defaultCards.map((card) => [getCardKey(card), card]));
+  const defaultByWord = new Map(defaultCards.map((card) => [card.word.trim().toLowerCase(), card]));
   const enrichedSavedCards = savedCards.map((card) => ({
-    ...defaultByKey.get(getCardKey(card)),
+    ...(defaultByKey.get(getCardKey(card)) || defaultByWord.get(card.word.trim().toLowerCase())),
     ...card,
-    example: defaultByKey.has(getCardKey(card)) ? defaultByKey.get(getCardKey(card)).example : card.example || "",
-    exampleTranscription: defaultByKey.has(getCardKey(card))
-      ? defaultByKey.get(getCardKey(card)).exampleTranscription
-      : card.exampleTranscription || "",
-    exampleTranslation: defaultByKey.has(getCardKey(card))
-      ? defaultByKey.get(getCardKey(card)).exampleTranslation
-      : card.exampleTranslation || "",
+    transcription:
+      defaultByKey.get(getCardKey(card))?.transcription ||
+      defaultByWord.get(card.word.trim().toLowerCase())?.transcription ||
+      card.transcription ||
+      "",
+    translation:
+      defaultByKey.get(getCardKey(card))?.translation ||
+      defaultByWord.get(card.word.trim().toLowerCase())?.translation ||
+      card.translation ||
+      "",
+    example:
+      defaultByKey.get(getCardKey(card))?.example ||
+      defaultByWord.get(card.word.trim().toLowerCase())?.example ||
+      card.example ||
+      "",
+    exampleTranscription:
+      defaultByKey.get(getCardKey(card))?.exampleTranscription ||
+      defaultByWord.get(card.word.trim().toLowerCase())?.exampleTranscription ||
+      card.exampleTranscription ||
+      "",
+    exampleTranslation:
+      defaultByKey.get(getCardKey(card))?.exampleTranslation ||
+      defaultByWord.get(card.word.trim().toLowerCase())?.exampleTranslation ||
+      card.exampleTranslation ||
+      "",
   }));
   const savedByKey = new Map(enrichedSavedCards.map((card) => [getCardKey(card), card]));
   const missingDefaultCards = defaultCards.filter((card) => !savedByKey.has(getCardKey(card)));
